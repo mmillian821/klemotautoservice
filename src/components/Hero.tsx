@@ -11,7 +11,7 @@ const Hero = () => {
       
       {/* Car Background Image */}
       <div 
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-20"
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-40"
         style={{
           backgroundImage: `url('/lovable-uploads/bb91a39f-b411-4b18-8a91-6d93de136864.png')`
         }}
