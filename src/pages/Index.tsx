@@ -3,6 +3,7 @@ import React from 'react';
 import Hero from '../components/Hero';
 import Gallery from '../components/Gallery';
 import About from '../components/About';
+import Testimonials from '../components/Testimonials';
 import Location from '../components/Location';
 import Contact from '../components/Contact';
 
@@ -12,6 +13,7 @@ const Index = () => {
       <Hero />
       <Gallery />
       <About />
+      <Testimonials />
       <Location />
       <Contact />
     </div>

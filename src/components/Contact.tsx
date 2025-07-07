@@ -4,7 +4,7 @@ import { Phone } from 'lucide-react';
 
 const Contact = () => {
   return (
-    <section className="py-20 bg-gradient-to-br from-gray-900 via-gray-800 to-slate-900 text-white">
+    <section id="contact" className="py-20 bg-gradient-to-br from-gray-900 via-gray-800 to-slate-900 text-white">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
