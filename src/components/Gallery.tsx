@@ -7,63 +7,53 @@ const Gallery = () => {
   const vehicles = [
     {
       id: 1,
-      name: "Toyota Camry",
-      image: "https://images.unsplash.com/photo-1621007947382-bb3c3994e3fb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80"
+      name: "Toyota Highlander",
+      image: "/lovable-uploads/40223682-7718-496f-8722-b3b7ea930c9b.png"
     },
     {
       id: 2,
-      name: "Honda Civic",
-      image: "https://images.unsplash.com/photo-1606152421802-db97b9c7a11b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80"
+      name: "Mercedes-Benz C-Class",
+      image: "/lovable-uploads/dbf5414e-2ff5-422f-a2bc-6e2686879594.png"
     },
     {
       id: 3,
-      name: "Lexus ES",
-      image: "https://images.unsplash.com/photo-1555215695-3004980ad54e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80"
+      name: "Toyota Highlander",
+      image: "/lovable-uploads/bb91a39f-b411-4b18-8a91-6d93de136864.png"
     },
     {
       id: 4,
-      name: "BMW Series",
-      image: "https://images.unsplash.com/photo-1617531653332-bd46c24f2068?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80"
+      name: "Mercedes-Benz GLC",
+      image: "/lovable-uploads/6f6cfb5f-3273-49f6-b3d5-5961292c6a1e.png"
     },
     {
       id: 5,
-      name: "Mercedes-Benz",
-      image: "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80"
+      name: "Toyota Venza",
+      image: "/lovable-uploads/e0a50533-064c-404c-afa8-4ffdf8354dc3.png"
     },
     {
       id: 6,
-      name: "Audi A4",
-      image: "https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80"
+      name: "Toyota Sienna",
+      image: "/lovable-uploads/2185a415-815c-457a-a49c-0792b2543550.png"
     },
     {
       id: 7,
-      name: "Nissan Altima",
-      image: "https://images.unsplash.com/photo-1600712242805-5f78671b24da?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80"
+      name: "Toyota Venza",
+      image: "/lovable-uploads/f895bd06-3d4e-4a7f-b179-f9fbe0543576.png"
     },
     {
       id: 8,
-      name: "Ford Focus",
-      image: "https://images.unsplash.com/photo-1503736334956-4c8f8e92946d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80"
+      name: "Mercedes-Benz ML-Class",
+      image: "/lovable-uploads/9f1c7eb1-110e-4f60-b506-95ffe5c94746.png"
     },
     {
       id: 9,
-      name: "Hyundai Elantra",
-      image: "https://images.unsplash.com/photo-1542362567-b07e54358753?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80"
+      name: "Toyota Camry",
+      image: "/lovable-uploads/12293e72-c439-4ad1-85c2-0c8be63ff97d.png"
     },
     {
       id: 10,
-      name: "Volkswagen Jetta",
-      image: "https://images.unsplash.com/photo-1549399381-cfa3ba11d6ce?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80"
-    },
-    {
-      id: 11,
-      name: "Mazda 6",
-      image: "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80"
-    },
-    {
-      id: 12,
-      name: "Subaru Legacy",
-      image: "https://images.unsplash.com/photo-1544636331-e26879cd4d9b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80"
+      name: "Toyota Corolla",
+      image: "/lovable-uploads/ea974eac-e37d-411e-96e7-93911de01390.png"
     }
   ];
 
