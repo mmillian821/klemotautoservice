@@ -50,7 +50,7 @@ const Location = () => {
           <div className="relative">
             <div className="bg-gray-200 rounded-2xl overflow-hidden shadow-xl">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.1234567890123!2d3.3419400000000003!3d6.6025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNsKwMzYnMDkuMCJOIDPCsDIwJzMxLjAiRQ!5e0!3m2!1sen!2sng!4v1234567890123"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.4!2d3.3419!3d6.6025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zS0xNIDE5IElsZS16aWsgYnVzIHN0b3AsIElrZWphLCBMYWdvcw!5e0!3m2!1sen!2sng!4v1234567890123"
                 width="100%"
                 height="400"
                 style={{ border: 0 }}
