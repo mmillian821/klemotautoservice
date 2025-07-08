@@ -10,7 +10,6 @@ const Navigation = () => {
     { name: 'Home', href: '/' },
     { name: 'Gallery', href: '/gallery' },
     { name: 'About', href: '/about' },
-    { name: 'Testimonials', href: '/testimonials' },
     { name: 'FAQs', href: '/faq' },
     { name: 'Contact', href: '/contact' },
   ];
@@ -21,8 +20,8 @@ const Navigation = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo and Brand */}
           <Link to="/" className="flex items-center space-x-3">
-            <div className="w-10 h-10 bg-white rounded-lg flex items-center justify-center">
-              <img src={logoImage} alt="Klemot Auto Service" className="w-8 h-8 object-contain" />
+            <div className="w-16 h-16 bg-white rounded-lg flex items-center justify-center">
+              <img src={logoImage} alt="Klemot Auto Service" className="w-14 h-14 object-contain" />
             </div>
             <div>
               <h1 className="text-white font-bold text-lg">Klemot Auto Service</h1>
