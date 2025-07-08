@@ -2,6 +2,7 @@ import React from 'react';
 import Navigation from '../components/Navigation';
 import About from '../components/About';
 import Contact from '../components/Contact';
+import Footer from '../components/Footer';
 
 const AboutPage = () => {
   return (
@@ -10,6 +11,7 @@ const AboutPage = () => {
       <div className="pt-16">
         <About />
         <Contact />
+        <Footer />
       </div>
     </div>
   );
