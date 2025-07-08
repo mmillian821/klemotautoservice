@@ -26,7 +26,7 @@ const Location = () => {
                 <div>
                   <h3 className="text-2xl font-semibold text-gray-900 mb-3">Our Address</h3>
                   <p className="text-lg text-gray-700 leading-relaxed">
-                    KLM 19 Ile-zik bus stop<br />
+                    Ile-zik bus stop<br />
                     Ikeja, Lagos<br />
                     Nigeria
                   </p>

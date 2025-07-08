@@ -25,7 +25,7 @@ const Navigation = () => {
             </div>
             <div>
               <h1 className="text-white font-bold text-lg">Klemot Auto Service</h1>
-              <p className="text-green-400 text-xs">Quality Vehicles & Service</p>
+              <p className="text-green-400 text-xs">Quality Vehicles & Service • RC: 6984466</p>
             </div>
           </Link>
 
