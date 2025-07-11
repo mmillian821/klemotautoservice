@@ -1,6 +1,7 @@
 
 import React from 'react';
 import { Phone } from 'lucide-react';
+import { Link } from 'react-router-dom';
 import Navigation from './Navigation';
 
 const Hero = () => {
@@ -52,9 +53,9 @@ const Hero = () => {
             </p>
           <p className="text-gray-300">
             We also offer professional car and container clearing at Tincan Island Port, Apapa. 
-            <a href="/clearing-services" className="text-green-400 hover:text-green-300 underline ml-1">
+            <Link to="/clearing-services" className="text-green-400 hover:text-green-300 underline ml-1">
               Learn more →
-            </a>
+            </Link>
           </p>
           </div>
           
