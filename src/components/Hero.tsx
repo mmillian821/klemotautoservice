@@ -40,10 +40,23 @@ const Hero = () => {
             Klemot Auto Service LTD – Quality Vehicles, Exceptional Service.
           </p>
           
-          <p className="text-lg text-gray-400 mb-12 max-w-2xl mx-auto leading-relaxed">
+          <p className="text-lg text-gray-400 mb-8 max-w-2xl mx-auto leading-relaxed">
             We specialize in quality car sales and trusted auto services in the heart of Lagos. 
             Visit us today to experience automotive excellence.
           </p>
+          
+          {/* Clearing Services Highlight */}
+          <div className="bg-blue-900/50 backdrop-blur-sm border border-blue-400/30 rounded-lg p-6 mb-8 max-w-3xl mx-auto">
+            <p className="text-blue-200 text-lg mb-2">
+              🚢 <strong>NEW:</strong> Licensed Clearing Agent Services
+            </p>
+            <p className="text-gray-300">
+              We now offer professional car and container clearing at Tincan Island Port, Apapa. 
+              <a href="/clearing-services" className="text-green-400 hover:text-green-300 underline ml-1">
+                Learn more →
+              </a>
+            </p>
+          </div>
           
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
