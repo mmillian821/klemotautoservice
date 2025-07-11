@@ -50,12 +50,12 @@ const Hero = () => {
             <p className="text-blue-200 text-lg mb-2">
               🚢 <strong>NEW:</strong> Licensed Clearing Agent Services
             </p>
-            <p className="text-gray-300">
-              We now offer professional car and container clearing at Tincan Island Port, Apapa. 
-              <a href="/clearing-services" className="text-green-400 hover:text-green-300 underline ml-1">
-                Learn more →
-              </a>
-            </p>
+          <p className="text-gray-300">
+            We also offer professional car and container clearing at Tincan Island Port, Apapa. 
+            <a href="/clearing-services" className="text-green-400 hover:text-green-300 underline ml-1">
+              Learn more →
+            </a>
+          </p>
           </div>
           
           {/* CTA Buttons */}
