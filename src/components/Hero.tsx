@@ -49,7 +49,7 @@ const Hero = () => {
           {/* Clearing Services Highlight */}
           <div className="bg-blue-900/50 backdrop-blur-sm border border-blue-400/30 rounded-lg p-6 mb-8 max-w-3xl mx-auto">
             <p className="text-blue-200 text-lg mb-2">
-              🚢 <strong>NEW:</strong> Custom Agency
+              🚢 <strong>NEW:</strong> Licensed Custom Agency
             </p>
           <p className="text-gray-300">
             We also offer professional car and container clearing at Tincan Island Port, Apapa. 
