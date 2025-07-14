@@ -1,8 +1,13 @@
 import React from 'react';
-import { Car, Wrench, Shield, DollarSign, Clock, Award } from 'lucide-react';
+import { Car, Wrench, Shield, DollarSign, Clock, Award, Truck } from 'lucide-react';
 
 const Services = () => {
   const services = [
+    {
+      icon: Truck,
+      title: "Freight Forwarding",
+      description: "Professional freight forwarding and logistics services for seamless cargo movement."
+    },
     {
       icon: Car,
       title: "Quality Car Sales",

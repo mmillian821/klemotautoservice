@@ -16,6 +16,7 @@ const Footer = () => {
   ];
 
   const services = [
+    'Freight Forwarding',
     'Vehicle Sales',
     'Auto Maintenance',
     'Engine Diagnostics',
