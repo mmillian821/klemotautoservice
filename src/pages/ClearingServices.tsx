@@ -26,11 +26,7 @@ const ClearingServices = () => {
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
               🚢 Custom Licensed Agency – We Clear Cars & Containers!
             </h2>
-            <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              I am a Customs Licensed Clearing Agent with years of experience clearing cars, trucks, 
-              and containers at Tincan Island Port, Apapa. Whether you're importing a single car or 
-              a full container, I offer fast, professional, and reliable clearing services.
-            </p>
+            <p className="text-lg text-gray-600 max-w-3xl mx-auto">We are Freight Forwarding Agent with years of experience clearing cars, trucks, and containers at Tincan Island Port, Apapa. Whether you're importing a single car or a full container, I offer fast, professional, and reliable clearing services.</p>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
