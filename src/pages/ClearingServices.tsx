@@ -14,10 +14,7 @@ const ClearingServices = () => {
               <Ship className="w-16 h-16 text-green-400" />
             </div>
             <h1 className="text-4xl md:text-6xl font-bold mb-6">Custom Licensed Agency at Tincan Island Port</h1>
-            <p className="text-xl md:text-2xl text-blue-100 max-w-4xl mx-auto">
-              At Klemot Auto Service LTD, we don't just sell cars — we help you import them too. 
-              I am a Customs Licensed Clearing Agent, certified and trusted to handle your cargo.
-            </p>
+            <p className="text-xl md:text-2xl text-blue-100 max-w-4xl mx-auto">At Klemot Auto Service LTD, we don't just sell cars — we help you import them too. We are Licensed Freight Forwarders, Certified and Trusted to Handle your Consignment.</p>
           </div>
         </div>
       </section>
