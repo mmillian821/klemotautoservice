@@ -69,7 +69,7 @@ const ClearingServices = () => {
               <div className="flex items-start space-x-3">
                 <CheckCircle className="w-6 h-6 text-green-600 flex-shrink-0 mt-1" />
                 <div>
-                  <h4 className="font-semibold text-gray-900">📦 Licensed & Certified</h4>
+                  <h4 className="font-semibold text-gray-900">📦 Fully Licensed Agency with Proper Certification</h4>
                   <p className="text-gray-600">Fully licensed customs clearing agent with proper certification</p>
                 </div>
               </div>
@@ -117,7 +117,7 @@ const ClearingServices = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-8">Ready to Clear Your Cargo?</h2>
           <p className="text-xl text-blue-100 mb-8 max-w-3xl mx-auto">
-            Contact me today for fast, professional, and reliable clearing services at Tincan Island Port.
+            Contact Us today for fast, professional, and reliable clearing services at Tincan Island Port.
           </p>
           
           <div className="flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-8">
