@@ -2,10 +2,8 @@ import React from 'react';
 import { Ship, CheckCircle, Phone, Mail, MessageCircle, Package, Truck, Container } from 'lucide-react';
 import Navigation from '../components/Navigation';
 import Footer from '../components/Footer';
-
 const ClearingServices = () => {
-  return (
-    <div className="min-h-screen bg-gray-50">
+  return <div className="min-h-screen bg-gray-50">
       <Navigation />
       
       {/* Hero Section */}
@@ -15,9 +13,7 @@ const ClearingServices = () => {
             <div className="flex justify-center mb-6">
               <Ship className="w-16 h-16 text-green-400" />
             </div>
-            <h1 className="text-4xl md:text-6xl font-bold mb-6">
-              Licensed Clearing Agent at Tincan Island Port
-            </h1>
+            <h1 className="text-4xl md:text-6xl font-bold mb-6">Custom Licensed Agency at Tincan Island Port</h1>
             <p className="text-xl md:text-2xl text-blue-100 max-w-4xl mx-auto">
               At Klemot Auto Service LTD, we don't just sell cars — we help you import them too. 
               I am a Customs Licensed Clearing Agent, certified and trusted to handle your cargo.
@@ -125,28 +121,17 @@ const ClearingServices = () => {
           </p>
           
           <div className="flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-8">
-            <a 
-              href="tel:+2348067657616"
-              className="flex items-center space-x-3 bg-white text-blue-900 px-6 py-3 rounded-lg font-semibold hover:bg-blue-50 transition-colors"
-            >
+            <a href="tel:+2348067657616" className="flex items-center space-x-3 bg-white text-blue-900 px-6 py-3 rounded-lg font-semibold hover:bg-blue-50 transition-colors">
               <Phone className="w-5 h-5" />
               <span>📞 Call: +2348067657616</span>
             </a>
             
-            <a 
-              href="https://wa.me/2348067657616"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center space-x-3 bg-green-500 text-white px-6 py-3 rounded-lg font-semibold hover:bg-green-600 transition-colors"
-            >
+            <a href="https://wa.me/2348067657616" target="_blank" rel="noopener noreferrer" className="flex items-center space-x-3 bg-green-500 text-white px-6 py-3 rounded-lg font-semibold hover:bg-green-600 transition-colors">
               <MessageCircle className="w-5 h-5" />
               <span>📲 WhatsApp: +2348067657616</span>
             </a>
             
-            <a 
-              href="mailto:Klemotors87@gmail.com"
-              className="flex items-center space-x-3 bg-gray-800 text-white px-6 py-3 rounded-lg font-semibold hover:bg-gray-700 transition-colors"
-            >
+            <a href="mailto:Klemotors87@gmail.com" className="flex items-center space-x-3 bg-gray-800 text-white px-6 py-3 rounded-lg font-semibold hover:bg-gray-700 transition-colors">
               <Mail className="w-5 h-5" />
               <span>📧 Email: Klemotors87@gmail.com</span>
             </a>
@@ -155,8 +140,6 @@ const ClearingServices = () => {
       </section>
 
       <Footer />
-    </div>
-  );
+    </div>;
 };
-
 export default ClearingServices;
