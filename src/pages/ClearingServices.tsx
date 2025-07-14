@@ -26,10 +26,10 @@ const ClearingServices = () => {
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
               🚢 Custom Licensed Agency – We Clear Cars & Containers!
             </h2>
-            <p className="text-lg text-gray-600 max-w-3xl mx-auto">We are Freight Forwarding Agent with years of experience clearing cars, trucks, and containers at Tincan Island Port, Apapa. Whether you're importing a single car or a full container, I offer fast, professional, and reliable clearing services.</p>
+            <p className="text-lg text-gray-600 max-w-3xl mx-auto">We are Freight Forwarding Agent with years of experience clearing cars, trucks, and containers at Tincan Island Port, Apapa. Whether you're importing a single car or a full container, we offer fast, professional, and reliable clearing services.</p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
+          <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-8 mb-16">
             <div className="text-center p-6 bg-gray-50 rounded-lg">
               <CheckCircle className="w-12 h-12 text-green-600 mx-auto mb-4" />
               <h3 className="text-xl font-semibold text-gray-900 mb-2">Car Clearing</h3>
@@ -52,6 +52,12 @@ const ClearingServices = () => {
               <Package className="w-12 h-12 text-green-600 mx-auto mb-4" />
               <h3 className="text-xl font-semibold text-gray-900 mb-2">Port Logistics Advisory</h3>
               <p className="text-gray-600">Expert guidance through port procedures</p>
+            </div>
+            
+            <div className="text-center p-6 bg-gray-50 rounded-lg">
+              <Ship className="w-12 h-12 text-green-600 mx-auto mb-4" />
+              <h3 className="text-xl font-semibold text-gray-900 mb-2">Import & Export</h3>
+              <p className="text-gray-600">Complete import and export documentation services</p>
             </div>
           </div>
 
@@ -86,7 +92,7 @@ const ClearingServices = () => {
               <div className="flex items-start space-x-3">
                 <CheckCircle className="w-6 h-6 text-green-600 flex-shrink-0 mt-1" />
                 <div>
-                  <h4 className="font-semibold text-gray-900">📲 Clear with Me on WhatsApp</h4>
+                  <h4 className="font-semibold text-gray-900">📲 Clear with Us on WhatsApp</h4>
                   <p className="text-gray-600">Easy communication and updates throughout the process</p>
                 </div>
               </div>
@@ -97,7 +103,7 @@ const ClearingServices = () => {
           <div className="text-center mb-16">
             <h3 className="text-2xl font-bold text-gray-900 mb-8">Our Clearing Process</h3>
             <p className="text-lg text-gray-600 max-w-4xl mx-auto">
-              With full access to Tincan Island Port, Apapa, I ensure your cargo is handled quickly and 
+              With full access to Tincan Island Port, Apapa, we ensure your cargo is handled quickly and 
               professionally, with zero stress. From documentation to final delivery, we manage every step 
               of the clearing process.
             </p>
